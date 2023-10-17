@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8" />
+    <title>The Creative Guys</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="./images/Creative_Guys_Logo.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="./images/Creative_Guys_Logo.jpg"
+      type="image/x-icon"
+    />
+    <style>
+      /* Style for the custom dropdown container */
+      .custom-select {
+          position: relative;
+          width: 200px; /* Adjust as needed */
+      }
+
+      /* Style for the custom select element */
+      .custom-select select {
+          width: 100%;
+          padding: 10px;
+          border: none;
+          outline: none;
+          background-color: #f2f2f2;
+          cursor: pointer;
+      }
+
+      /* Style for the custom arrow icon */
+      .custom-select::after {
+          content: "\25BC"; /* Down arrow character */
+          position: absolute;
+          top: 50%;
+          right: 10px;
+          transform: translateY(-50%);
+      }
+  </style>
+  </head>
+
+  <body id="top">
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+      <div class="header-logo">
+        <a class="site-logo" href="index.html">
+          <img src="images/Creative_Guys_Logo.png" alt="Homepage" />
+        </a>
+      </div>
+
+      <nav class="header-nav">
+        <a href="#0" class="header-nav__close" title="close"
+          ><span>Close</span></a
+        >
+
+        <div class="header-nav__content">
+          <h3>Navigation</h3>
+
+          <ul class="header-nav__list">
+            <li class="current">
+              <a class="smoothscroll" href="#home" title="home">Home</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#about" title="about">About</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#services" title="services"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a class="smoothscroll" href="#works" title="works">Works</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#contact" title="contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <h1 class="heading" style="color: white;">
+            Let’s Work on Your Next Video!
+          </h1>
+          <p>
+            Let our team help bring your ideas to life.
+          </p>
+
+          <ul class="header-nav__social">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- end header-nav__content -->
+      </nav>
+      <!-- end header-nav -->
+
+      <a class="header-menu-toggle" href="#0">
+        <span class="header-menu-text">Menu</span>
+        <span class="header-menu-icon"></span>
+      </a>
+    </header>
+    <!-- end s-header -->
+
+    <!-- home
+    ================================================== -->
+    <section
+      id="home"
+      class="s-home target-section"
+      data-parallax="scroll"
+      data-image-src="images/hero.jpg"
+      data-natural-width="3000"
+      data-natural-height="2000"
+      data-position-y="center"
+    >
+      <div class="overlay"></div>
+      <div class="shadow-overlay"></div>
+
+      <div class="home-content">
+        <div class="row home-content__main">
+          <h3>Welcome to The Creative Guys!</h3>
+
+          <h1>
+            The Leading Animated<br />
+            Video Agency
+          </h1>
+
+          <p>
+            We are a 2D explainer video agency that creates custom animations
+            and motion graphics for businesses and individuals. We specialize in
+            creating engaging and entertaining contents that simplifies complex
+            ideas and helps people understand your message. Lets us bring your
+            ideas to life!
+          </p>
+
+          <div class="home-content__buttons">
+            <a href="#contact" class="smoothscroll btn btn--stroke">
+              Start a Project
+            </a>
+            <a href="#about" class="smoothscroll btn btn--stroke">
+              More About Us
+            </a>
+          </div>
+        </div>
+
+        <div class="home-content__scroll">
+          <a href="#about" class="scroll-link smoothscroll">
+            <span>Scroll Down</span>
+          </a>
+        </div>
+
+        <div class="home-content__line"></div>
+      </div>
+      <!-- end home-content -->
+
+      <ul class="home-social">
+        <li>
+          <a href="#0"
+            ><i class="fa fa-facebook" aria-hidden="true"></i
+            ><span>Facebook</span></a
+          >
+        </li>
+        <li>
+          <a href="#0"
+            ><i class="fa fa-twitter" aria-hidden="true"></i
+            ><span>Twiiter</span></a
+          >
+        </li>
+        <li>
+          <a href="#0"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+            ><span>Instagram</span></a
+          >
+        </li>
+      <!-- end home-social -->
+    </section>
+    <!-- end s-home -->
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about">
+      <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead subhead--dark">Hello There</h3>
+          <h1 class="display-1 display-1--light">We Are The Creative Guys</h1>
+        </div>
+      </div>
+      <!-- end section-header -->
+
+      <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+          <p>
+            We excel at making complicated concepts easy to understand. <br />
+
+            If you’re trying to communicate a new business model, products,
+            services, an unfamiliar technology or complex science, we can make
+            sure your audience gets it. <br />
+
+            Our animated explainer videos have helped businesses communicate
+            their core message and increase conversion rates.
+          </p>
+        </div>
+      </div>
+      <!-- end about-desc -->
+
+      <div class="about__line"></div>
+    </section>
+    <!-- end s-about -->
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services">
+      <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">What We Do</h3>
+          <h1 class="display-2">
+            We’ve got everything you need to launch and grow your business
+          </h1>
+        </div>
+      </div>
+      <!-- end section-header -->
+
+      <div class="row services-list block-1-2 block-tab-full">
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-text">
+            <h3 class="h2">Whiteboard Animation</h3>
+            <h6 class="h5" style="color: orange">Starting at R25 000</h6>
+            <p>
+              The Video pricing is based on a typical 30-60 second explainer
+              video. The final video production costs depend on the project
+              scope, video length, and the production value you want. We create
+              traditional whiteboard animations for businesses and individuals
+              that are informative and engaging.
+            </p>
+            <ul>
+              <li>Storyboarding and Illustration</li>
+              <li>Script Writing and Voiceover</li>
+              <li>Custom Whiteboard Illustration</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon">
+            <img src="./images/tecla.png" width="500"/>
+          </div>
+        </div>
+                        
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon">
+            <img src="./images/tecla-2.png" width="500"/>
+          </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-text">
+            <h3 class="h2">Motion Graphics</h3>
+            <h6 class="h5" style="color: orange">Starting at R65 000</h6>
+            <p>
+              The video pricing is based a typical 30-60 second explainer video.
+              The final video production costs depend on the project scope,
+              video length, and the production value you want. We design and
+              animate graphics that are visually appealing and grab the
+              attention of your audience.
+            </p>
+            <ul>
+              <li>Logo Animation</li>
+              <li>3D Animation</li>
+              <li>Social Media Ads</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-text">
+            <h3 class="h2">2D Explainer Videos</h3>
+            <h6 class="h5" style="color: orange">Starting at R45 000</h6>
+            <p>
+              The video pricing is based on a typical 30-60 second explainer
+              video. The final video production costs depend on the project
+              scope, video length, and the production value you want. We create
+              animated videos that explain complex ideas with clear, concise
+              language and engaging visuals.
+            </p>
+            <ul>
+              <li>Custom Animated Characters</li>
+              <li>Script Writing and Voiceover</li>
+              <li>Storyboarding and Illustration</li>
+            </ul>
+          </div>
+        </div>
+
+                
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon">
+            <img src="./images/tecla-3.png" width="500"/>
+          </div>
+        </div>
+
+                
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon">
+            <img src="./images/tecla-4.png" width="500"/>
+          </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-text">
+              <h3 class="h2">Animated marketing and sales video</h3>
+              <!--<h6 class="h5" style="color: orange">Starting at R45 000</h6>-->
+              <p>
+                Elevate Your Business with our animated marketing and sales video with a dynamic and captivating visual journey designed to promote your products and boost sales.
+                Our animated marketing and sales video is not just a visual masterpiece; it's a powerful tool to drive conversions, increase brand awareness, and elevate your business to new heights.
+                Incorporate this animated video into your marketing strategy, and watch as it engages, informs, and converts your target audience like never before. It's time to showcase your products with style and substance!
+              </p>
+            </div>
+        </div>
+      </div>
+      
+
+      <!-- end services-list -->
+    </section>
+    <!-- end s-services -->
+
+    <!-- process
+    ================================================== -->
+    <section id="about" class="s-about">
+      <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+          <h1 class="display-1 display-1--light">Our Process</h1>
+        </div>
+      </div>
+      <!-- end section-header -->
+
+      <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+          <h6 class="h1">1</h6>
+          <h6 class="h4" style="color: #fff">QUESTIONNAIRE</h6>
+          <p>
+            Fill out our questionnaire with the guidelines for your project.
+          </p>
+          <h6 class="h1">2</h6>
+          <h6 class="h4" style="color: #fff">SCRIPTING</h6>
+          <p>
+            Expert copywriters produce a potent script that communicate your
+            message perfectly and clearly.
+          </p>
+          <h6 class="h1">3</h6>
+          <h6 class="h4" style="color: #fff">VOICEOVER</h6>
+          <p>
+            Professional voice over artist brings your script to life grabbing
+            your audience’s attention.
+          </p>
+          <h6 class="h1">4</h6>
+          <h6 class="h4" style="color: #fff">STORYBOARD/ANIMATION</h6>
+          <p>
+            Veteran animators vivify your voice-over that resonate and engage
+            your audience.
+          </p>
+          <h6 class="h1">5</h6>
+          <h6 class="h4" style="color: #fff">DELIVERY/REVISION</h6>
+          <p>
+            Receive your custom animated video and ask for eventual revision.
+          </p>
+        </div>
+      </div>
+      <!-- end about-desc -->
+
+      <div class="about__line"></div>
+    </section>
+    <!-- end s-about -->
+
+    <!-- why us
+    ================================================== -->
+    <section id="services" class="s-services">
+      <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">Why Us?</h3>
+          <h1 class="display-2">What Makes Us Unique</h1>
+        </div>
+      </div>
+      <!-- end section-header -->
+      <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+          <h6 class="h4">Creativity and Talent.</h6>
+          <p>
+            Beginning with script writing, storyboarding, illustration, and
+            animation, your video will be fully optimized to get the results you
+            need. Our collaborative approach keeps you in the loop and gathers
+            your feedback at every stage of production. Your final video will
+            engage your audience and connect with them at a personal level.
+          </p>
+        </div>
+      </div>
+
+      <!-- end section-header -->
+      <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+          <h6 class="h4">Passionate and results-driven</h6>
+          <p>
+            Our goal is to deliver video content that’s result oriented. So, we
+            take time to understand your business or idea, your purpose and
+            target audience. Video on a landing page can boost website
+            conversions by up to 80%. With that in mind, every step of our
+            process works toward the overarching goal of delivering clear and
+            compelling content. Each piece of the puzzle comes together to
+            create animated videos that clearly communicate your message.
+          </p>
+        </div>
+      </div>
+      <!-- end section-header -->
+      <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+          <h6 class="h4">Great ROI, Cost Effective Videos</h6>
+          <p>
+            Generate leads, increase traffic, and reach your goals, with video.
+            Over 90% of businesses say that a video is effective in helping
+            people understand their value proposition. More than 90% shoppers
+            watch videos and decide to buy based on the product video they
+            watched. A well-produced video, together with a good marketing
+            strategy, is a sure good formula for good return on your investment
+            (ROI) Take advantage and benefit from working with us.
+          </p>
+        </div>
+      </div>
+      <!-- end services-list -->
+    </section>
+    <!-- end s-services -->
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+      <div class="overlay"></div>
+      <div class="contact__line"></div>
+
+      <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">Contact Us</h3>
+          <h1 class="display-2 display-2--light">
+            Reach out for a new project or just say hello
+          </h1>
+        </div>
+      </div>
+
+      <div class="row contact-content" data-aos="fade-up">
+        <div class="contact-primary">
+          <h3 class="h6">Send Us A Message</h3>
+
+          <form
+            name="contactForm"
+            id="contactForm"
+            method="post"
+            action=""
+            novalidate="novalidate"
+          >
+            <fieldset>
+              <div class="form-field">
+                <input
+                  name="contactName"
+                  type="email"
+                  id="contactEmail"
+                  placeholder="Your Name"
+                  value=""
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactEmail"
+                  type="email"
+                  id="contactEmail"
+                  placeholder="Your Email"
+                  value=""
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactSubject"
+                  type="text"
+                  id="contactSubject"
+                  placeholder="Subject"
+                  value=""
+                  class="full-width"
+                />
+                <div class="form-field">
+                </div>
+                <div class="form-field">
+                  <select
+                    name="contactName"
+                    type="email"
+                    id="contactEmail"
+                    value=""
+                    required=""
+                    aria-required="true"
+                    class="full-width"
+                  >
+                  <option style="color: black; font-size: large;">Bugdet</option>
+                  <option style="color: black; font-size: large;">R25 000 - R45 000</option>
+                  <option style="color: black; font-size: large;">R45 000 - R85 000</option>
+                  <option style="color: black; font-size: large;">R85 000 - R125 000</option>
+                </select>
+                </div>
+              <div class="form-field">
+                <textarea
+                  name="contactMessage"
+                  id="contactMessage"
+                  placeholder="Your Message"
+                  rows="10"
+                  cols="50"
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                ></textarea>
+              </div>
+              <div class="form-field">
+                <button class="full-width btn--primary">Submit</button>
+                <div class="submit-loader">
+                  <div class="text-loader">Sending...</div>
+                  <div class="s-loader">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+
+          <!-- contact-warning -->
+          <div class="message-warning">
+            Something went wrong. Please try again.
+          </div>
+
+          <!-- contact-success -->
+          <div class="message-success">
+            Your message was sent, thank you!<br />
+          </div>
+        </div>
+        <!-- end contact-primary -->
+
+        <div class="contact-secondary">
+          <div class="contact-info">
+            <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+            <div class="cinfo">
+              <h5>Where to Find Us</h5>
+              <p>
+                1600 Amphitheatre Parkway<br />
+                Mountain View, CA<br />
+                94043 US
+              </p>
+            </div>
+
+            <div class="cinfo">
+              <h5>Email Us At</h5>
+              <p>
+                contact@glintsite.com<br />
+                info@glintsite.com
+              </p>
+            </div>
+
+            <div class="cinfo">
+              <h5>Call Us At</h5>
+              <p>
+                Phone: (+63) 555 1212<br />
+                Mobile: (+63) 555 0100<br />
+                Fax: (+63) 555 0101
+              </p>
+            </div>
+
+            <ul class="contact-social">
+              <li>
+                <a href="#"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-dribbble" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+            <!-- end contact-social -->
+          </div>
+          <!-- end contact-info -->
+        </div>
+        <!-- end contact-secondary -->
+      </div>
+      <!-- end contact-content -->
+    </section>
+    <!-- end s-contact -->
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+      <div class="row footer-main">
+        <div
+          class="col-six tab-full left footer-desc"
+          style="margin: 0; padding: 0"
+        >
+          <div style="margin-top: 0; padding: 0">
+            <img src="./images/Creative_Guys_Logo.png" width="75" />
+          </div>
+          Experience the power of Simplicity! Say goodbye to confusion and Hello
+          to Crystal clear animated video that inspires positive viewer
+          interaction. Quality Video at an Affordable price.
+        </div>
+
+        <div
+          class="col-six tab-full right footer-subscribe"
+          style="margin-top: 22px"
+        >
+          <h4>Get Notified</h4>
+          <ul>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+          <ul>
+            <li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJ1mJz6VN2Geo7XmIJS3cRWIXuus9DtAnJ_sZLfpILiKm0UA/viewform?usp=sf_link">Fill the form</a>
+            </li>
+          </ul>
+          <p>
+          </p>
+        </div>
+      </div>
+      <!-- end footer-main -->
+
+      <div class="row footer-bottom">
+        <div class="col-twelve">
+          <div class="copyright">
+            <span>© The Creative Guys 2023</span>
+          </div>
+
+          <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"
+              ><i class="icon-arrow-up" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- end footer-bottom -->
+    </footer>
+    <!-- end footer -->
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close (Esc)"
+            ></button>
+            <button
+              class="pswp__button pswp__button--share"
+              title="Share"
+            ></button>
+            <button
+              class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"
+            ></button>
+            <button
+              class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"
+            ></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous (arrow left)"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next (arrow right)"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end photoSwipe background -->
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+      <div id="loader">
+        <div class="line-scale-pulse-out">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
